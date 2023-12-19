@@ -86,7 +86,7 @@ h2 {
 .art,
 .total_clientes,
 .satisfeitos {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .subtitulo {
@@ -145,8 +145,6 @@ h2 {
 
 .work {
   background: url(/images/back.jpg) center no-repeat;
-  vertical-align: middle;
-  width: auto;
 }
 
 .empurra_img {
@@ -159,18 +157,18 @@ h2 {
 }
 
 .back_white {
+  display: flex;
+  justify-content: center;
   background-color: white;
   background: rgb(255, 255, 255);
   border-radius: 16px;
+  /* background-position: 0 50%;
+  background-clip: content-box; */
+  padding: 40px;
+  margin-top: 40px;
   width: 900px;
   margin: 0 auto;
-  background-position: 0 50%;
-  background-clip: content-box;
-  border-radius: 25px;
-  padding: 10px;
-  display: flex;
-  /* justify-content: center; */
-  margin-top: 40px;
+  
 }
 
 .wsp {
