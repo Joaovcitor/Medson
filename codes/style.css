@@ -162,13 +162,10 @@ h2 {
   background-color: white;
   background: rgb(255, 255, 255);
   border-radius: 16px;
-  /* background-position: 0 50%;
-  background-clip: content-box; */
   padding: 40px;
   margin-top: 40px;
   width: 900px;
   margin: 0 auto;
-  
 }
 
 .wsp {
