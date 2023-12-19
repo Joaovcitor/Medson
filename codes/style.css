@@ -3,6 +3,23 @@
   padding: auto;
 }
 
+img {
+  width: 100px;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.img_white {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.texto_teste {
+  font-size: 18px;
+}
 /* body {
   display: flex;
   justify-content: center;
@@ -95,6 +112,12 @@ h2 {
 }
 
 /* back */
+
+.back_green {
+  background-color: #8DAB8F;
+  padding: 140px;
+}
+
 
 .quadBranco {
   background-color: rgb(255, 255, 255);
