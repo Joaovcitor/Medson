@@ -63,6 +63,12 @@ h2 {
 
 /* textos */
 
+.texto_titulo_argumento {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+
+}
+
 .titulo,
 .subtitulo,
 .conhecer {
@@ -85,6 +91,7 @@ h2 {
 
 .subtitulo {
   font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* back */
@@ -137,6 +144,7 @@ h2 {
 
 .work {
   background: url(/images/back.jpg) center no-repeat;
+  width: auto;
 }
 
 .empurra_img {
@@ -179,6 +187,10 @@ h2 {
 
 .kit_argumento {
   margin: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 .coluna_argumentos {
