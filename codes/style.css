@@ -59,6 +59,10 @@ h2 {
   font-family: "Poppins", sans-serif;
 }
 
+.art, .total_clientes, .satisfeitos {
+  color: white;
+}
+
 .subtitulo {
   font-size: 18px;
 }
