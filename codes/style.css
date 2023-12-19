@@ -118,7 +118,29 @@ h2 {
 
 /* back */
 
+.back_withe_price {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 400px;
+}
+
+.back_black_sub {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  width: 300px;
+}
+
 .back_green {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
   background-color: #8DAB8F;
   padding: 140px;
 }
