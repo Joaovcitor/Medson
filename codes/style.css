@@ -309,7 +309,3 @@ span {
   padding: 30px;
  }
 
-.texto_back {
-  display: grid;
-  grid-template-rows: 200px 200px;
-}
