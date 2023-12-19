@@ -18,6 +18,8 @@
 
 .video {
   margin: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
@@ -59,8 +61,7 @@ h2 {
 }
 
 /* textos */
-/* 
-<<<<<<< HEAD
+
 .titulo,
 .subtitulo,
 .conhecer {
@@ -69,13 +70,7 @@ h2 {
   flex-direction: column;
   margin-left: 0 auto;
   margin-right: 0 auto;
-=======
-.titulo,.subtitulo,.conhecer {
-display: flex;
-margin-left: auto;
-margin-right: auto;
->>>>>>> 4dffc9024a535087b14edda530fd3937a112ecc3
-} */
+}
 
 .titulo {
   font-size: 35px;
