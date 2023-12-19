@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: auto;
+}
+
+/* body {
+  margin: 10px 70px 0px 70px;
+} */
+
+.descricao {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.geral_conteudo {
+  display: flex;
+  flex-direction: row;
+}
+
+.textos {
+  display: flex;
+  /* margin-left: 20px; */
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.textos_geral {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.conhecer {
+  background-color: #7cd164;
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  color: white;
+  margin-top: 15px;
+}
+
+/* textos */
+
+.titulo {
+  font-size: 35px;
+}
+
+.subtitulo {
+  font-size: 18px;
+}
+
+/* back */
+
+.quadBranco {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 30px;
+  width: 320px;
+  -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+}
+
+.quadVerde {
+  background-color: #7cd164;
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
+  -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+}
+
+.img_principal {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.img_parte_principal {
+  width: 300px;
+  border-radius: 30px;
+}
+
+.work {
+  background: url(/images/back.jpg) center 1em no-repeat;
+}
+
+/* .empurra {
+  margin-bottom: 40px;
+} */
+
+.empurra_img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.back_white {
+  /* background: center no-repeat; */
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.wsp {
+  background-color: #7cd164;
+  border: none;
+  width: 160px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  color: white;
+  margin-top: 20px;
+}
