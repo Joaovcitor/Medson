@@ -54,6 +54,11 @@ h2 {
 
 /* textos */
 
+.titulo,.subtitulo,.conhecer {
+margin-left: 300px;
+}
+
+
 .titulo {
   font-size: 35px;
   font-family: "Poppins", sans-serif;
@@ -89,12 +94,14 @@ h2 {
 .img_principal {
   display: flex;
   margin: 120px;
+  margin-right: 450px;
   justify-content: space-between;
   flex-direction: row;
 }
 
 .img_parte_principal {
-  width: 300px;
+  width: 325px;
+  margin: 0 auto;
   border-radius: 30px;
 }
 
