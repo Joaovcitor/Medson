@@ -144,7 +144,8 @@ h2 {
 }
 
 .work {
-  background: url(/images/back.jpg) center no-repeat;
+  background: url(/images/back.jpg)  no-repeat;
+  vertical-align: middle;
   width: auto;
 }
 
