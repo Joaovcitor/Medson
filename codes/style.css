@@ -3,6 +3,12 @@
   padding: auto;
 }
 
+/* body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
 .descricao {
   display: flex;
   justify-content: space-between;
@@ -54,17 +60,24 @@ h2 {
 
 /* textos */
 
-.titulo,.subtitulo,.conhecer {
-display: flex;
+.titulo,
+.subtitulo,
+.conhecer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
-
 
 .titulo {
   font-size: 35px;
   font-family: "Poppins", sans-serif;
 }
 
-.art, .total_clientes, .satisfeitos {
+.art,
+.total_clientes,
+.satisfeitos {
   color: white;
 }
 
@@ -97,25 +110,31 @@ display: flex;
 
 .img_principal {
   display: flex;
+  margin: 0 auto;
   margin: 120px;
-  /* margin-right: 450px; */
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
   flex-direction: row;
 }
 
-.img_parte_principal {
-  width: 325px;
+.textos_topos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   margin: 0 auto;
+}
+
+.img_parte_principal {
+  display: flex;
+  width: 325px;
+  /* margin: 0 auto; */
   border-radius: 30px;
 }
 
 .work {
   background: url(/images/back.jpg) center no-repeat;
 }
-
-/* .empurra {
-  margin-bottom: 40px;
-} */
 
 .empurra_img {
   display: flex;
@@ -158,7 +177,6 @@ display: flex;
 .kit_argumento {
   margin: 80px;
 }
-
 
 .coluna_argumentos {
   display: flex;
