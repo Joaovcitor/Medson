@@ -11,6 +11,11 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  margin: 80px;
+}
+
+.video {
+  margin: 80px;
 }
 
 h2 {
@@ -30,7 +35,6 @@ h2 {
 
 .textos {
   display: flex;
-  /* margin-left: 20px; */
   justify-content: space-between;
   flex-direction: row;
   margin-bottom: 20px;
@@ -86,6 +90,7 @@ h2 {
 
 .img_principal {
   display: flex;
+  margin: 80px;
   justify-content: space-between;
   flex-direction: row;
 }
@@ -96,7 +101,7 @@ h2 {
 }
 
 .work {
-  background: url(/images/back.jpg) center 1em no-repeat;
+  background: url(/images/back.jpg) center  no-repeat;
 }
 
 /* .empurra {
@@ -112,8 +117,8 @@ h2 {
 }
 
 .back_white {
-  /* background: center no-repeat; */
   background-color: white;
+  background: bottom 2em no-repeat;
   -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
@@ -135,4 +140,9 @@ h2 {
   border-radius: 20px;
   color: white;
   margin-top: 20px;
+}
+
+
+.kit_argumento {
+  margin: 80px;
 }
