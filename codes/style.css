@@ -39,6 +39,11 @@ img {
   justify-content: center;
 }
 
+.linha {
+  border: solid 1px black;
+
+}
+
 h2 {
   font-size: 19px;
 }
