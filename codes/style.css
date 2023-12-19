@@ -144,34 +144,31 @@ h2 {
 }
 
 .work {
-  background: url(/images/back.jpg)  no-repeat;
+  background: url(/images/back.jpg) center no-repeat;
   vertical-align: middle;
   width: auto;
 }
 
 .empurra_img {
+  padding: 80px;
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin-bottom: 30px;
+  /* margin-top: 30px; */
 }
 
 .back_white {
-  /* background-color: white; */
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0);
+  background-color: white;
+  background: rgb(255, 255, 255);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(9.7px);
-  -webkit-backdrop-filter: blur(9.7px);
   width: 900px;
   margin: 0 auto;
   background-position: 0 50%;
   background-clip: content-box;
   border-radius: 25px;
-  /* padding: 10px; */
-  /* display: flex; */
+  padding: 10px;
+  display: flex;
   /* justify-content: center; */
   margin-top: 40px;
 }
@@ -203,7 +200,7 @@ h2 {
 }
 
 .back_argumentos {
-  background-color: #7cd16471;
+  background-color: #8DAB8F;
   -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
