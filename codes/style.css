@@ -168,7 +168,23 @@ h2 {
   margin-top: 40px;
   width: 900px;
   margin: 0 auto;
-  
+}
+
+.total_clientes {
+  text-align: center;
+  font-size: 40px;
+}
+
+.bar {
+  border: solid 1px rgb(0, 0, 0) ;
+  margin: 10px;
+  height: 100px;
+}
+
+span {
+  display: flex;
+  font-size: 15px;
+  flex-direction: row;
 }
 
 .wsp {
