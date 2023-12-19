@@ -59,7 +59,7 @@ h2 {
 }
 
 /* textos */
-
+/* 
 <<<<<<< HEAD
 .titulo,
 .subtitulo,
@@ -75,7 +75,7 @@ display: flex;
 margin-left: auto;
 margin-right: auto;
 >>>>>>> 4dffc9024a535087b14edda530fd3937a112ecc3
-}
+} */
 
 .titulo {
   font-size: 35px;
