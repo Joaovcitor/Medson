@@ -18,6 +18,8 @@
 
 .video {
   margin: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
