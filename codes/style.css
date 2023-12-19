@@ -251,3 +251,32 @@ span {
   margin-top: 30px;
   border-radius: 20px;
 }
+
+/* .acompanhamento {
+  display: flex;
+} */
+
+.texto_acompanhamento {
+  flex-direction: column;
+}
+
+.texto_green {
+  background: rgb(118,151,134);
+  background: linear-gradient(270deg, rgba(118,151,134,1) 0%, rgba(145,175,146,1) 70%);
+  width: 250px;
+  border-radius: 5px;
+  padding: 30px;
+  color: white;
+  -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+}
+
+.texto_white {
+  background: rgb(212, 212, 212);
+  width: 250px;
+  border-radius: 5px;
+  padding: 30px;
+ }
+
+
