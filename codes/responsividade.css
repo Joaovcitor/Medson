@@ -94,6 +94,7 @@
   .check {
     margin-top: 20px;
     text-align: center;
+    margin-right: 20px;
   }
 
   .sub_video {
@@ -123,11 +124,28 @@
     justify-content: center;
     text-align: center;
   }
+  
+  .wsp {
+    background-color: #8dab8f;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: none;
+    width: 200px;
+    height: 50px;
+    padding: 18px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+  }
 
-  .back_white {
+   .back_white {
     display: grid;
     grid-template-columns: 1fr;
     background-color: white;
+    text-align: center;
     /* background: rgb(255, 255, 255); */
     border-radius: 16px;
     padding: 10px;
@@ -164,13 +182,14 @@
   .kit_argumento {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0 auto;
+    margin: 0 auto; 
     margin-top: 20px;
   }
   .coluna_argumentos {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
+    text-align: center;
     /* margin: 0 auto; */
     /* margin: 20px; */
   }
