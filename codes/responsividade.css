@@ -500,9 +500,17 @@
     /* background: rgb(255, 255, 255); */
     border-radius: 16px;
     padding: 10px;
-    width: 250px;
+    width: 350px;
     margin: 0 auto;
     /* margin-top: 20px; */
+  }
+
+  .empurra_img {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
   }
 
   .bar {

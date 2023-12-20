@@ -402,6 +402,8 @@ h2 {
 
 .work {
   background: url(/images/back.jpg) center no-repeat;
+  height: 380px;
+  margin-bottom: 80px;
 }
 
 .empurra_img {
