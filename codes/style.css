@@ -184,7 +184,7 @@ h2 {
   font-family: "Abel", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 20px;
-  text-align: initial;
+  text-align: center;
 }
 
 .subtitulo_argumento {
@@ -465,8 +465,9 @@ span {
 
 .coluna_argumentos {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  /* flex-direction: row; */
 }
 
 .back_argumentos {
@@ -474,7 +475,7 @@ span {
   -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
-  margin-right: 20px;
+  /* margin-right: 20px; */
   padding: 25px;
   width: 200px;
   margin-bottom: 30px;
@@ -518,10 +519,10 @@ span {
   display: none;
 }
 
-img {
+.img_carrousel {
   margin: 0 auto;
-  height: 60%;
-  width: 60%;
+  width: 450px;
+  height: 400px;
   margin-top: 20px;
   border-radius: 20px;
 }
@@ -540,8 +541,6 @@ img {
 
 .next-button {
   position: absolute;
-  top: 50%;
-  right: 50%;
   transform: translate(50%, -50%);
   width: 30px;
   height: 30px;
