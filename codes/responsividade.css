@@ -488,9 +488,10 @@
 /* video */
 @media (max-width: 450px) {
   .video {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
     margin: 20px;
-    display: flex;
-    justify-content: center;
   }
   .geral_conteudo {
     display: flex;
