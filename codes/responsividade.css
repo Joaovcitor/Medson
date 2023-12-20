@@ -4,13 +4,18 @@
 
 @media (max-width: 400px) {
   .img_principal {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 0 auto;
     margin: 20px;
     justify-content: center;
     align-items: center;
     text-align: start;
     flex-direction: column;
+  }
+
+  .img_parte_principal {
+    width: 280px;
   }
 
   .img_carrousel {
@@ -175,7 +180,7 @@
     /* background: rgb(255, 255, 255); */
     border-radius: 16px;
     padding: 10px;
-    width: 250px;
+    width: 150px;
     margin: 0 auto;
     /* margin-top: 20px; */
   }

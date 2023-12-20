@@ -377,7 +377,8 @@ h2 {
 }
 
 .img_principal {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   margin: 120px;
   justify-content: center;
@@ -402,7 +403,7 @@ h2 {
 
 .work {
   background: url(/images/back.jpg) center no-repeat;
-  height: 380px;
+  height: 420px;
   margin-bottom: 80px;
 }
 
@@ -423,7 +424,7 @@ h2 {
   border-radius: 16px;
   padding: 40px;
   margin: 0 auto;
-  width: 700px;
+  width: 600px;
   margin-top: 40px;
 }
 

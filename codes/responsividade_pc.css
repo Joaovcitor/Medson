@@ -1,0 +1,5 @@
+@media(min-width: 1366px) {
+    .img_principal {
+        display: grid;
+    }
+}
