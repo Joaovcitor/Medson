@@ -109,6 +109,7 @@ h2 {
   border-radius: 30px;
   color: white;
   margin-top: 15px;
+  margin: 0 auto;
 }
 
 /* textos */
@@ -274,9 +275,9 @@ h2 {
   flex-direction: column;
   text-align: center;
   background-color: white;
-  -webkit-box-shadow: 26px 13px 30px -7px rgba(0, 0, 0, 0.75);
+  /* -webkit-box-shadow: 26px 13px 30px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 26px 13px 30px -7px rgba(0, 0, 0, 0.75);
-  box-shadow: 26px 13px 30px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 26px 13px 30px -7px rgba(0, 0, 0, 0.75); */
   width: 300px;
   margin: 0 auto;
   border-radius: 10px;
@@ -383,10 +384,10 @@ h2 {
 }
 
 .textos_topos {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .img_parte_principal {
@@ -416,9 +417,9 @@ h2 {
   background: rgb(255, 255, 255);
   border-radius: 16px;
   padding: 40px;
-  margin-top: 40px;
-  width: 700px;
   margin: 0 auto;
+  width: 700px;
+  margin-top: 40px;
 }
 
 .total_clientes {
