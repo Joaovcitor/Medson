@@ -13,14 +13,6 @@
     flex-direction: column;
   }
 
-  .img_carrousel {
-  margin: 0 auto;
-  height: 75%;
-  width: 75%;
-  margin-top: 20px;
-  border-radius: 20px;
-}
-
   .titulo,
   .subtitulo,
   .conhecer {
@@ -197,7 +189,6 @@
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    text-align: center;
     /* margin: 0 auto; */
     /* margin: 20px; */
   }
