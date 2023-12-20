@@ -13,6 +13,14 @@
     flex-direction: column;
   }
 
+  .img_carrousel {
+    margin: 0 auto;
+    height: 75%;
+    width: 75%;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
   .titulo,
   .subtitulo,
   .conhecer {
