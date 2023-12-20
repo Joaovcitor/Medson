@@ -21,6 +21,7 @@
     flex-direction: column;
     margin-right: 0px;
     margin: 0 auto;
+    text-align: center;
   }
 
   .textos_topos {
@@ -98,11 +99,20 @@
   .sub_video {
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .linha {
+    display: flex;
+    margin-right: 20px;
   }
 
   .textos_video {
     font-size: 25px;
     font-family: "Abel", sans-serif;
+    text-align: center;
+    margin-right: 20px;
   }
 }
 /* meio */
