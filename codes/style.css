@@ -95,7 +95,7 @@ h2 {
 }
 .textos_geral {
   display: flex;
-  margin-left: 20px;
+  margin: 10px;
   justify-content: space-between;
   flex-direction: column;
   margin-bottom: 20px;

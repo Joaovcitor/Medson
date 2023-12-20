@@ -523,12 +523,13 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 10px;
+    margin: 0px;
   }
 
   .check {
     display: flex;
     justify-content: center;
+    margin: 0;
   }
   .sub_video {
     margin-top: 40px;
