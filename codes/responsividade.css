@@ -84,6 +84,7 @@
   .video {
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 40px;
     margin: 0 auto;
     margin: 20px;
   }
