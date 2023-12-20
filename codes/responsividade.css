@@ -274,9 +274,9 @@
     display: flex;
     justify-content: center;
     background-color: white;
-    width: 200px;
-    margin: 0 auto;
+    width: 50px;
     height: 400px;
+    margin: 0 auto;
   }
   .buy_kit {
     font-size: 20px;
@@ -302,6 +302,14 @@
     align-items: center;
     text-align: start;
     flex-direction: column;
+  }
+
+  .img_carrousel {
+    margin: 0 auto;
+    height: 65%;
+    width: 65%;
+    margin-top: 20px;
+    border-radius: 20px;
   }
 
   .titulo,
