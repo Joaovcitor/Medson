@@ -146,12 +146,25 @@
     border: none;
     width: 200px;
     height: 50px;
-    padding: 18px;
+    padding: 10px;
     margin: 0 auto;
     border-radius: 20px;
     color: white;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .img_wsp {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .empurra_img {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
   }
 
   .back_white {
