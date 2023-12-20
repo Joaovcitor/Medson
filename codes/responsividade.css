@@ -121,7 +121,9 @@
 
   .linha {
     display: flex;
-    margin-right: 20px;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
   }
 
   .textos_video {
@@ -521,22 +523,37 @@
     /* margin-left: 20px; */
     /* justify-content: space-between; */
     flex-direction: column;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
   }
 
   .texto_check,
   .check {
     margin-top: 20px;
     text-align: center;
+    margin: 0 auto;
+  }
+
+  .linha {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .sub_video {
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px;
   }
 
   .textos_video {
     font-size: 25px;
     font-family: "Abel", sans-serif;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 /* produto */
