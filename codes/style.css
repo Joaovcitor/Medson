@@ -89,6 +89,39 @@ p {
   font-size: 20px;
 }
 
+.texto_carrossel {
+  display: flex;
+  justify-content: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.texto_green, .texto_white {
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.buy_kit {
+  font-family: "Asap Condensed", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  color: #f9f9f1;
+}
+
+.sub_buy_kit {
+  font-family: "Abel", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.texto_teste {
+  color: #f9f9f1;
+  margin-left: 20px;
+  font-family: "Abel", sans-serif;
+}
+
 /* responsividade mobile */ 
 
 
