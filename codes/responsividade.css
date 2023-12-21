@@ -414,77 +414,11 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  /* PRODUTO */
-
-  /* CARRROSEL */
-}
-
-/* acompanhamento */
-
-/* produto */
-
-@media (max-width: 400px) {
-  /* ACOMPANHAMENTO - TEXTOS E GRID */
-
-  .acompanhamento {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 60px;
-  }
-
-  .texto_acompanhamento {
-    font-size: 30px;
-    font-family: "Poppins", sans-serif;
-    text-align: justify;
-  }
-
-  .sub_acompanhamento {
-    font-size: 20px;
-    font-family: "Abel", sans-serif;
-  }
-
-  .texto_back {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: white;
-    width: 300px;
-    margin: 0 auto;
-    border-radius: 10px;
-  }
-
-  .back_details_green {
-    background-color: #50c878;
-    text-align: center;
-    margin: 0 auto;
-    width: 250px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 10px;
-  }
-
-  .back_details_white {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    /* background: rgb(212, 212, 212); */
-    border: solid 1px rgb(110, 110, 110);
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    width: 250px;
-    padding: 10px;
-  }
 
   .texto_green {
     color: white;
   }
-
-  /* PRODUTO - BACKGROUND */
-
+  /* PRODUTO */
   .back_green {
     display: grid;
     grid-template-columns: 1fr;
@@ -594,6 +528,8 @@
     border-radius: 25px;
     margin: 0 auto;
   }
+
+  /* CARRROSEL */
 
   /* CARROSSEL */
 
