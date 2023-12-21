@@ -488,9 +488,9 @@
   .back_green {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 50px;  
     background-color: #8ca89c;
-    padding: 20px;
+    padding: 10px;
   }
 
   .back_withe_price {
@@ -498,8 +498,8 @@
     display: flex;
     justify-content: center;
     background-color: white;
-    width: 300px;
     margin: 0 auto;
+    width: 300px;
     height: 500px;
   }
 

@@ -2,7 +2,7 @@
 
 /* topo */
 
-@media (max-width: 450px) {
+@media (min-width: 410px) {
   .img_principal {
     display: flex;
     margin: 0 auto;
@@ -158,7 +158,7 @@
   }
 }
 /* caixinhas */
-@media (max-width: 450px) {
+@media (min-width: 410px) {
   .kit_argumento {
     display: grid;
     grid-template-columns: 1fr;
@@ -186,7 +186,7 @@
   }
 }
 /* acompanhamento */
-@media (max-width: 450px) {
+@media (min-width: 410px) {
   .acompanhamento {
     display: grid;
     grid-template-columns: 1fr;
@@ -254,7 +254,7 @@
 }
 
 /* meio */
-@media (max-width: 450px) {
+@media (min-width: 410px) {
   .work {
     background: url(/images/back.jpg) center no-repeat;
     height: 420px;
@@ -334,7 +334,7 @@
 }
 
 /* video */
-@media (max-width: 450px) {
+@media (min-width: 410px) {
   .video {
     display: grid;
     grid-template-columns: 1fr;

@@ -1,4 +1,4 @@
-@media (min-width: 1000px) {
+@media (min-width: 1050px) {
   /* topo */
 
   .conhecer {
@@ -75,7 +75,7 @@
     border-radius: 20px;
     padding: 30px;
     width: 250px;
-    height: 80px;
+    /* height: 80px; */
     margin: 0 auto;
     margin-right: 20px;
     margin-left: 20px;
@@ -92,7 +92,7 @@
       rgba(145, 175, 146, 1) 50%
     );
     width: 250px;
-    height: 80px;
+    /* height: 80px; */
     margin: 0 auto;
     border-radius: 20px;
     padding: 30px;
@@ -352,17 +352,17 @@
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     background-color: #8ca89c;
-    padding: 140px;
+    padding: 100px;
   }
 
   .back_withe_price {
-    padding: 15px;
+    padding: 35px;
     display: flex;
     justify-content: center;
     background-color: white;
     width: 300px;
     margin: 0 auto;
-    height: 400px;
+    height: 500px;
   }
 
   .back_black_sub {
@@ -371,9 +371,12 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    margin: 0 auto;
     background-color: #30353b;
     width: 250px;
+    padding: 40px 10px;
+    margin: 10px;
+    /* height: 380px; */
   }
 
   /* PRODUTOS - TEXTOS */
@@ -440,6 +443,7 @@
     padding: 10px;
     font-size: 14px;
     border-radius: 25px;
+    color: white;
     margin: 0 auto;
   }
 
