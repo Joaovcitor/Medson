@@ -1,6 +1,6 @@
 /* topo */
 
-@media (min-width: 402px) {
+@media (min-width: 410px) {
   .img_principal {
     display: flex;
     margin: 0 auto;
@@ -156,7 +156,7 @@
   }
 }
 /* caixinhas */
-@media (min-width: 402px) {
+@media (min-width: 410px) {
   .kit_argumento {
     display: grid;
     grid-template-columns: 1fr;
@@ -184,7 +184,7 @@
   }
 }
 /* acompanhamento */
-@media (min-width: 402px) {
+@media (min-width: 410px) {
   .acompanhamento {
     display: grid;
     grid-template-columns: 1fr;
@@ -252,7 +252,7 @@
 }
 
 /* meio */
-@media (min-width: 402px) {
+@media (min-width: 410px) {
   .work {
     background: url(/images/back.jpg) center no-repeat;
     height: 420px;
@@ -332,7 +332,7 @@
 }
 
 /* video */
-@media (min-width: 402px) {
+@media (min-width: 410px) {
   .video {
     display: grid;
     grid-template-columns: 1fr;
@@ -391,7 +391,7 @@
   }
 }
 /* produto */
-@media (min-width: 402px) {
+@media (min-width: 410px) {
   .back_green {
     display: grid;
     grid-template-columns: 1fr;
@@ -419,7 +419,6 @@
     padding: 10px;
     background-color: #30353b;
     width: 250px;
-    
   }
 
   .texto_do_preco_produto {
