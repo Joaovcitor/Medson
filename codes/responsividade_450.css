@@ -162,6 +162,7 @@
     grid-template-columns: 1fr;
     margin: 0 auto;
     margin-top: 20px;
+    text-align: center;
   }
   .coluna_argumentos {
     display: grid;
@@ -454,6 +455,7 @@
     display: flex;
     width: 45px;
     margin: 0 auto;
+    margin-top: 10px;
   }
 
   .buy_kit {
