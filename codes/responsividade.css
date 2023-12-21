@@ -388,7 +388,6 @@
     padding: 10px;
   }
 
-
   .texto_back {
     display: flex;
     justify-content: center;
@@ -480,12 +479,40 @@
     flex-direction: column;
   }
 
+  .img_parte_principal {
+    width: 280px;
+    border-radius: 30px;
+  }
+
+  .conhecer {
+    background-color: #8dab8f;
+    font-size: 17px;
+    /* width: 160px; */
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .img_carrousel {
     margin: 0 auto;
     height: 65%;
     width: 65%;
     margin-top: 20px;
     border-radius: 20px;
+  }
+
+  .titulo {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .subtitulo {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
   }
 
   .titulo,
@@ -518,7 +545,21 @@
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
-    margin-right: 0px;
+  }
+
+  .quad {
+    width: 30px;
+    margin-right: 30px;
+  }
+
+  .textoQuad,
+  .textoQuadBranco {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+  }
+
+  .texto_do_quad {
+    font-family: "Asap Condensed", sans-serif;
   }
   .quadBranco {
     background-color: rgb(255, 255, 255);
@@ -551,6 +592,35 @@
     -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
+  }
+
+  /* imagens de modelo */
+
+  #fotos_js {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img_exemplos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .models {
+    border-radius: 30px;
+    width: 60%;
+    -webkit-box-shadow: 6px 6px 0px 1px rgba(29, 240, 149, 1);
+    -moz-box-shadow: 6px 6px 0px 1px rgba(29, 240, 149, 1);
+    box-shadow: 6px 6px 0px 1px rgba(29, 240, 149, 1);
+  }
+
+  .vasos_criados {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: "Asap Condensed", sans-serif;
   }
 }
 /* caixinhas */
@@ -651,12 +721,24 @@
 
 /* meio */
 @media (max-width: 450px) {
+  .work {
+    background: url(/images/back.jpg) center no-repeat;
+    height: 420px;
+    margin-bottom: 80px;
+  }
+
   .trabalho_ {
     font-size: 40px;
     display: flex;
     justify-content: center;
     text-align: center;
   }
+
+  .img_wsp {
+    width: 25px;
+    margin: 0 auto;
+  }
+
   .wsp {
     background-color: #8dab8f;
     display: flex;
@@ -708,9 +790,11 @@
   .art {
     margin-bottom: 0px;
     font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
   }
 
   .total_clientes {
+    font-family: "Fira Sans", sans-serif;
     font-size: 20px;
   }
 }
@@ -730,19 +814,16 @@
   }
   .textos_geral {
     display: flex;
-    /* margin-left: 20px; */
-    /* justify-content: space-between; */
-    flex-direction: column;
+    margin: 40px;
+    justify-content: center;
     text-align: center;
-    display: flex;
-    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .texto_check {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
   }
 
   .linha {
@@ -752,23 +833,29 @@
     margin-bottom: 20px;
   }
 
-  .check {
+  .textos {
     display: flex;
     justify-content: center;
-    margin: 0;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .check {
+    width: 20px;
+    margin: 0 auto;
   }
   .sub_video {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-right: 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
   }
 
   .textos_video {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Abel", sans-serif;
-    text-align: center;
-    margin: 0 auto;
   }
 }
 /* produto */
