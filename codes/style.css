@@ -71,11 +71,15 @@ h2 {
 }
 
 .texto_titulo_argumento {
+  margin-top: 40px;
   font-size: 22px;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .texto_acompanhamento {
+  font-family: 'Fira Sans', sans-serif;
   flex-direction: column;
 }
 /* responsividade mobile */ 
