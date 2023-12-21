@@ -82,6 +82,13 @@ h2 {
   font-family: 'Fira Sans', sans-serif;
   flex-direction: column;
 }
+
+p {
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
 /* responsividade mobile */ 
 
 
