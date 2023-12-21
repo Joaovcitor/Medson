@@ -1,8 +1,6 @@
 /* MOBILE COM LARGURA MENOR ATÉ 400PX */
-
-/* topo */
-
 @media (max-width: 405px) {
+  /* TOPO */
   .img_principal {
     display: grid;
     grid-template-columns: 1fr;
@@ -17,6 +15,9 @@
   .img_parte_principal {
     width: 280px;
     border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .img_carrousel {
@@ -63,6 +64,9 @@
     margin-top: 15px;
     margin: 0 auto;
   }
+
+  /* QUADRADOS DESCRICAO */
+
   .descricao {
     display: flex;
     justify-content: center;
@@ -117,9 +121,7 @@
     -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
   }
-
-  /* imagens de modelo */
-
+  /* IMAGENS DE MODELO */
   #fotos_js {
     display: grid;
     grid-template-columns: 1fr;
@@ -146,9 +148,7 @@
     font-size: 30px;
     font-family: "Asap Condensed", sans-serif;
   }
-}
-/* video */
-@media (max-width: 400px) {
+  /* VIDEO */
   .video {
     /* margin: 120px; */
     display: flex;
@@ -159,7 +159,7 @@
   ._video iframe {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
   }
 
@@ -180,7 +180,7 @@
 
   .textos_geral {
     display: flex;
-    margin: 40px;
+    margin: 20px;
     justify-content: center;
     text-align: center;
     flex-direction: column;
@@ -209,6 +209,8 @@
   }
   .textos_geral {
     display: flex;
+    text-align: center;
+    justify-content: center;
     flex-direction: column;
   }
 
@@ -229,22 +231,21 @@
 
   .linha {
     display: flex;
-    /* margin: 0 auto; */
     border: solid 1px black;
-    width: 40px;
+    width: 280px;
     margin: 0 auto;
     margin-bottom: 20px;
   }
 
   .textos_video {
+    display: flex;
+    text-align: center;
     font-size: 25px;
     font-family: "Abel", sans-serif;
     text-align: center;
     margin-right: 20px;
   }
-}
-/* meio */
-@media (max-width: 400px) {
+  /* TRABALHO */
   .work {
     background: url(/images/back.jpg) center no-repeat;
     height: 420px;
@@ -295,7 +296,7 @@
     /* background: rgb(255, 255, 255); */
     border-radius: 16px;
     padding: 10px;
-    width: 150px;
+    width: 250px;
     margin: 0 auto;
     /* margin-top: 20px; */
   }
@@ -314,7 +315,7 @@
 
   .art {
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Fira Sans", sans-serif;
   }
 
@@ -322,11 +323,7 @@
     font-size: 20px;
     font-family: "Fira Sans", sans-serif;
   }
-}
-
-/* caixinhas */
-
-@media (max-width: 400px) {
+  /* CAIXINHAS */
   .kit_argumento {
     display: grid;
     grid-template-columns: 1fr;
@@ -353,15 +350,12 @@
     border-radius: 20px;
   }
 
-  .texto_green, .texto_white {
-    font-family: 'Asap Condensed', sans-serif;
+  .texto_green,
+  .texto_white {
+    font-family: "Asap Condensed", sans-serif;
     font-size: 20px;
   }
-}
-
-/* acompanhamento */
-
-@media (max-width: 400px) {
+  /* ACOMPAHAMENTO */
   .acompanhamento {
     display: grid;
     grid-template-columns: 1fr;
@@ -379,6 +373,7 @@
     border-radius: 5px;
     padding: 10px;
   }
+
   .back_details_white {
     display: flex;
     justify-content: center;
@@ -394,8 +389,8 @@
   }
 
   .texto_back {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
     flex-direction: column;
     text-align: center;
     background-color: white;
@@ -419,7 +414,12 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  /* PRODUTO */
+
+  /* CARRROSEL */
 }
+
+/* acompanhamento */
 
 /* produto */
 
@@ -488,7 +488,7 @@
   .back_green {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 50px;  
+    gap: 50px;
     background-color: #8ca89c;
     padding: 10px;
   }
@@ -524,7 +524,7 @@
 
   .texto_teste {
     font-size: 44px;
-    font-family: 'Abel', sans-serif;
+    font-family: "Abel", sans-serif;
     text-align: initial;
   }
 
@@ -595,15 +595,13 @@
     margin: 0 auto;
   }
 
+  /* CARROSSEL */
 
-  /* CARROSSEL */ 
-
-
-.texto_carrossel {
-  display: flex;
-  justify-content: center;
-  font-family: 'Fira Sans', sans-serif;
-}
+  .texto_carrossel {
+    display: flex;
+    justify-content: center;
+    font-family: "Fira Sans", sans-serif;
+  }
 
   #carousel {
     width: 100%;
