@@ -15,6 +15,13 @@ img {
   margin-bottom: 20px;
 }
 
+.texto_video_clientes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+}
+
 .zap {
   width: 25px;
   margin: 0 auto;
