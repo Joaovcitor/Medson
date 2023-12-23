@@ -595,6 +595,13 @@
     margin: 0 auto;
     border-radius: 20px;
   }
+
+  /* VIDEOS DEPOIMENTO */ 
+
+  .depoimentos_em_texto {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 /* CELULARES QUE COMEÇAM EM 420PX */
@@ -1773,5 +1780,10 @@
   .slide {
     margin: 0 auto;
     border-radius: 20px;
+  }
+
+  .depoimentos_em_texto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

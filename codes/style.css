@@ -12,6 +12,20 @@ body {
   background-color: #f9f9f1;
 }
 
+h4 {
+  font-family: "Asap Condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.depoimento_cliente {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 img {
   width: 180px;
   display: flex;
@@ -24,7 +38,7 @@ img {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 .zap {
@@ -91,12 +105,12 @@ h2 {
 }
 
 .texto_acompanhamento {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   flex-direction: column;
 }
 
 p {
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
   text-align: center;
   font-size: 20px;
 }
@@ -104,11 +118,12 @@ p {
 .texto_carrossel {
   display: flex;
   justify-content: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
-.texto_green, .texto_white {
-  font-family: 'Asap Condensed', sans-serif;
+.texto_green,
+.texto_white {
+  font-family: "Asap Condensed", sans-serif;
   font-size: 20px;
 }
 
@@ -117,7 +132,7 @@ p {
   display: flex;
   text-align: center;
   justify-content: center;
-  
+
   color: #f9f9f1;
 }
 
@@ -134,6 +149,4 @@ p {
   font-family: "Abel", sans-serif;
 }
 
-/* responsividade mobile */ 
-
-
+/* responsividade mobile */
