@@ -624,6 +624,16 @@
     margin: 0 auto;
     margin-bottom: 10px;
   }
+   /* ZAP */ 
+
+   .wps_js_msg {
+    width: 45px;
+    position: fixed;
+    top: 95%;
+    left: 78%;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+  }
 }
 
 /* CELULARES QUE COMEÇAM EM 420PX */
@@ -1141,6 +1151,12 @@
 
   /* PRODUTOS - TEXTOS */
 
+  .kit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .img_white {
     margin-top: 30px;
     display: flex;
@@ -1283,6 +1299,17 @@
     margin: 0 auto;
     margin-bottom: 10px;
   }
+
+  /* ZAP */ 
+
+  .wps_js_msg {
+    width: 45px;
+    position: fixed;
+    top: 85%;
+    left: 78%;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+  }
 }
 /* PC */
 
@@ -1400,11 +1427,14 @@
   .img_exemplos {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
   }
 
   .models {
+    display: flex;
     border-radius: 80px;
-    width: 40%;
+    width: 250px;
+    margin: 0 auto;
     -webkit-box-shadow: 6px 6px 0px 1px rgba(29, 240, 149, 1);
     -moz-box-shadow: 6px 6px 0px 1px rgba(29, 240, 149, 1);
     box-shadow: 6px 6px 0px 1px rgba(29, 240, 149, 1);
@@ -1838,5 +1868,16 @@
     width: 320px;
     margin: 0 auto;
     margin-bottom: 10px;
+  }
+
+  /* BOTÃO ZAP */ 
+
+  .wps_js_msg {
+    width: 60px;
+    position: fixed;
+    top: 95%;
+    left: 90%;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
   }
 }
