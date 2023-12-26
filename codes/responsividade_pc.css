@@ -1274,6 +1274,15 @@
     margin: 0 auto;
     border-radius: 20px;
   }
+
+  /* VIDEOS CLIENTES */ 
+
+  .video_c_edit {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
 }
 /* PC */
 
@@ -1822,5 +1831,12 @@
   .depoimentos_em_texto {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .video_c_edit {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 }
