@@ -45,3 +45,13 @@ setInterval(function () {
 carousel.update();
 
 
+// BOTAO ZAP 
+
+const bnt_zap = document.querySelector(".wps_js_msg")
+
+bnt_zap.addEventListener("click", function(e) {
+    let msg = "Olá! Tenho interesse e queria mais informações. por favor."
+    let link =
+        "https://wa.me/558897043513/?text=" + encodeURIComponent(msg);
+      window.open(link);
+})
