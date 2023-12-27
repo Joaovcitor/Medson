@@ -164,10 +164,13 @@
       <nav class="geral_conteudo">
         <nav class="_video">
           <iframe
-            src="https://drive.google.com/file/d/1XMmyLxE39JB-8Ofi8CKKrXfcG6DORLvV/preview"
-            width="640"
-            height="240"
-            allow="autoplay"
+            width="560"
+            height="280"
+            src="https://www.youtube.com/embed/JGzEX4vN_QY?si=Y6hIhaCDtJ8LvCOv"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
           ></iframe>
         </nav>
         <nav class="textos_geral">
@@ -500,11 +503,19 @@
           />
         </div>
         <div class="botoes">
-          <button class="w3-button w3-display-left" onclick="plusDivs(-1)">
-            &#10094;
+          <button
+            id="ant"
+            class="w3-button w3-display-left"
+            onclick="plusDivs(-1)"
+          >
+            Anterior
           </button>
-          <button class="w3-button w3-display-right" onclick="plusDivs(+1)">
-            &#10095;
+          <button
+            id="dep"
+            class="w3-button w3-display-right"
+            onclick="plusDivs(+1)"
+          >
+            Próximo
           </button>
         </div>
       </nav>

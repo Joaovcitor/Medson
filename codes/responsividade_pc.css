@@ -638,6 +638,15 @@
     display: flex;
     justify-content: space-around;
   }
+  #ant, #dep {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background-color: #1df095;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+  }
 }
 
 /* CELULARES QUE COMEÇAM EM 420PX */
@@ -1318,6 +1327,24 @@
     display: flex;
     justify-content: space-around;
   }
+  #ant, #dep {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background-color: #1df095;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  #ant, #dep {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background-color: #1df095;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+  }
 }
 /* PC */
 
@@ -1894,5 +1921,15 @@
   .botoes {
     display: flex;
     justify-content: space-around;
+  }
+
+  #ant, #dep {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background-color: #1df095;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
   }
 }
