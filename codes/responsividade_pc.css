@@ -634,6 +634,10 @@
     transform: translate(50%, -50%);
     border-radius: 50%;
   }
+  .botoes {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* CELULARES QUE COMEÇAM EM 420PX */
@@ -1310,6 +1314,10 @@
     transform: translate(50%, -50%);
     border-radius: 50%;
   }
+  .botoes {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 /* PC */
 
@@ -1879,5 +1887,12 @@
     left: 90%;
     transform: translate(50%, -50%);
     border-radius: 50%;
+  }
+
+  /* botoes */
+
+  .botoes {
+    display: flex;
+    justify-content: space-around;
   }
 }
