@@ -1,57 +1,16 @@
-const carousel = document.querySelector("#carrossel");
+var slideIndex = 0;
+carousel();
 
-carousel.slides = carousel.querySelectorAll(".slide");
-
-carousel.activeSlide = 0;
-
-carousel.interval = 3000;
-
-carousel.previousSlide = function() {
-    this.activeSlide--;
-    if (this.activeSlide < 0) {
-        this.activeSlide = this.slides.length - 1;
-    }
-    this.update();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 1500); // Change image every 2 seconds
 }
 
-carousel.nextSlide = function() {
-    this.activeSlide++;
-    if (this.activeSlide >= this.slides.length) {
-        this.activeSlide = 0;
-    }
-    this.update();
-}
-
-carousel.update = function() {
-    this.slides.forEach(function (slide) {
-        slide.style.display = "none";
-    });
-    
-    this.slides[this.activeSlide].style.display = "block";
-}
-
-carousel.addEventListener("click", function (event) {
-    if (event.target.classList.contains("previous-button")) {
-        this.previousSlide();
-    } else if (event.target.classList.contains("next-button")) {
-        this.nextSlide();
-    }
-});
-
-setInterval(function () {
-    carousel.nextSlide();
-}, carousel.interval);
-
-carousel.update();
-
-
-// BOTAO ZAP 
-
-const bnt_zap = document.querySelector(".wps_js_msg")
-
-bnt_zap.addEventListener("click", function(e) {
-    let msg = "Olá! Tenho interesse e queria mais informações. por favor."
-    let link =
-        "https://wa.me/558897043513/?text=" + encodeURIComponent(msg);
-      window.open(link);
-})
+carousel()
